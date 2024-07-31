@@ -1,7 +1,6 @@
 name: Python CI and testing
 
 on: [push]
-
   jobs:
     build:
       runs-on: ubuntu-latest
