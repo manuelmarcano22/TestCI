@@ -1,8 +1,11 @@
 name: Python CI and testing
+
 on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - name: Copy the code to test
       uses: actions/checkout@v3
